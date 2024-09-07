@@ -1,0 +1,29 @@
+###
+
+GET {{host}}/api/shipping
+Content-Type: application/json
+Accept: application/json
+
+###
+
+POST {{host}}/api/shipping
+Content-Type: application/json
+Accept: application/json
+
+{
+  "carrier": "trans_company",
+  "weight": 0.00
+}
+
+###
+
+POST {{host}}/api/shipping
+Content-Type: application/json
+Accept: application/json
+
+{
+  "carrier": "pack_group",
+  "weight": 12.4
+}
+
+###

@@ -1,0 +1,15 @@
+#blog_list:
+#  path:       /blog/{page}
+#  controller: App\Controller\BlogController::list
+#  requirements:
+#    page: '\d+'
+
+api_shipping_show:
+  path:       /api/shipping
+  controller: App\Controller\ShippingController::show
+  methods:    GET
+
+api_shipping_calculate_price:
+  path:       /api/shipping
+  controller: App\Controller\ShippingController::calculatePrice
+  methods:    POST
