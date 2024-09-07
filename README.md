@@ -1,5 +1,11 @@
 ## Install the project
 
+#### Create .env
+
+```
+cp .env.example .env
+```
+
 #### Build and run Docker containers in daemon mode
 
 ```
